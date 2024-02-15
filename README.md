@@ -5,7 +5,7 @@
 [![CD](https://github.com/fedandburk/net-mvvmcross-extensions/actions/workflows/cd.yml/badge.svg)](https://github.com/fedandburk/net-mvvmcross-extensions/actions/workflows/cd.yml)
 [![CodeFactor](https://www.codefactor.io/repository/github/fedandburk/net-mvvmcross-extensions/badge)](https://www.codefactor.io/repository/github/fedandburk/net-mvvmcross-extensions)
 
-Extensions is a .Net Standard library with common extensions and helpers for [MvvmCross](https://github.com/MvvmCross/MvvmCross).
+Extensions is a .NET library with common extensions and helpers for [MvvmCross](https://github.com/MvvmCross/MvvmCross).
 
 ## Installation
 
