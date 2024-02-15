@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <PackageId>Fedandburk.MvvmCross.Extensions</PackageId>
+        <PackageVersion>1.0.20</PackageVersion>
+        <Title>MvvmCross Extensions</Title>
+        <Description>A collection of extensions for MvvmCross.</Description>
+        <Copyright>FEDANDBURK</Copyright>
+        <Authors>Prin53, FEDANDBURK</Authors>
+        <Owners>Prin53, FEDANDBURK</Owners>
+        <NeutralLanguage>en</NeutralLanguage>
+        <PackageTags>mvvmcross, extensions</PackageTags>
+        <PackageIconUrl>https://static.fedandburk.com/logo.svg</PackageIconUrl>
+        <PackageProjectUrl>https://github.com/fedandburk/net-mvvmcross-extensions</PackageProjectUrl>
+        <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageReleaseNotes>Use .NET 7</PackageReleaseNotes>
+        <PublishRepositoryUrl>true</PublishRepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <RepositoryUrl>https://github.com/fedandburk/net-mvvmcross-extensions</RepositoryUrl>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="MvvmCross" Version="9.1.1" />
+      <PackageReference Include="Fedandburk.Common.Extensions" Version="1.0.7" />
+    </ItemGroup>
+
+</Project>
