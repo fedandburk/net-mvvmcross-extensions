@@ -5,7 +5,7 @@
 [![CD](https://github.com/fedandburk/net-mvvmcross-extensions/actions/workflows/cd.yml/badge.svg)](https://github.com/fedandburk/net-mvvmcross-extensions/actions/workflows/cd.yml)
 [![CodeFactor](https://www.codefactor.io/repository/github/fedandburk/net-mvvmcross-extensions/badge)](https://www.codefactor.io/repository/github/fedandburk/net-mvvmcross-extensions)
 
-Extensions is a .Net Standard library with common extensions and helpers for [MvvmCross](https://github.com/MvvmCross/MvvmCross).
+Extensions is a .NET library with common extensions and helpers for [MvvmCross](https://github.com/MvvmCross/MvvmCross).
 
 ## Installation
 
@@ -48,11 +48,3 @@ To subscribe for changes of `INotifyPropertyChanged` properties:
 ```cs
 Subscription = this.WeakSubscribe(EventHandler, () => PropertyOne, () => PropertyTwo);
 ```
-
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update the tests as appropriate.
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
