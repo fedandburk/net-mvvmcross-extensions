@@ -4,7 +4,7 @@
         <TargetFramework>net7.0</TargetFramework>
         <Nullable>enable</Nullable>
         <PackageId>Fedandburk.MvvmCross.Extensions</PackageId>
-        <PackageVersion>1.0.20</PackageVersion>
+        <PackageVersion>1.0.3</PackageVersion>
         <Title>MvvmCross Extensions</Title>
         <Description>A collection of extensions for MvvmCross.</Description>
         <Copyright>FEDANDBURK</Copyright>
@@ -16,7 +16,7 @@
         <PackageProjectUrl>https://github.com/fedandburk/net-mvvmcross-extensions</PackageProjectUrl>
         <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
-        <PackageReleaseNotes>Use .NET 7</PackageReleaseNotes>
+        <PackageReleaseNotes>WrappedObservableCollection and FlatObservableCollection are both moved to Fedandburk.Common.Extensions plugin.</PackageReleaseNotes>
         <PublishRepositoryUrl>true</PublishRepositoryUrl>
         <RepositoryType>git</RepositoryType>
         <RepositoryUrl>https://github.com/fedandburk/net-mvvmcross-extensions</RepositoryUrl>
@@ -24,7 +24,7 @@
 
     <ItemGroup>
       <PackageReference Include="MvvmCross" Version="9.1.1" />
-      <PackageReference Include="Fedandburk.Common.Extensions" Version="1.0.7" />
+      <PackageReference Include="Fedandburk.Common.Extensions" Version="1.0.8" />
     </ItemGroup>
 
 </Project>

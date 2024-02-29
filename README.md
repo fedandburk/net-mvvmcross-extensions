@@ -42,27 +42,6 @@ Subscription = Command.RelayOn(
 );
 ```
 
-### IEnumerable Extensions
-To transform a two-dimensional collection or an `ObservableCollection` into a single-dimensional collection and keep the `CollectionChanged` events:
-
-```cs
-Items = new ObservableCollection<ObservableCollection<int>>
-{
-    new ObservableCollection<int> { 1, 2 },
-    new ObservableCollection<int> { 3 }
-};
-
-IEnumerable<int> flatItems = Items.ObservableFlatten();
-```
-
-To transform each element of a collection into a new form and keep the `CollectionChanged` events:
-
-```cs
-Items = new ObservableCollection<int> {1, 2, 3, 4, 5, 6};
-
-IEnumerable<string> wrappedItems = Items.ObservableSelect(item => item.ToString());
-```
-
 ### INotifyPropertyChanged Extensions
 To subscribe for changes of `INotifyPropertyChanged` properties:
 
