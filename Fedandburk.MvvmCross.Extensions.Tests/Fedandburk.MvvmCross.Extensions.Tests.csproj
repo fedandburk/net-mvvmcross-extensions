@@ -9,7 +9,7 @@
             <PrivateAssets>all</PrivateAssets>
             <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
         </PackageReference>
-        <PackageReference Include="MvvmCross" Version="9.1.1" />
+        <PackageReference Include="MvvmCross" Version="9.2.0" />
         <PackageReference Include="MvvmCross.Tests" Version="9.1.1" />
         <PackageReference Include="NSubstitute" Version="5.1.0" />
         <PackageReference Include="NUnit" Version="4.0.1" />
