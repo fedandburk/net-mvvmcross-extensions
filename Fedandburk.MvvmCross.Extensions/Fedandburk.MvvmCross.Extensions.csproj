@@ -23,7 +23,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="MvvmCross" Version="9.1.1" />
+      <PackageReference Include="MvvmCross" Version="9.2.0" />
       <PackageReference Include="Fedandburk.Common.Extensions" Version="1.0.8" />
     </ItemGroup>
 
